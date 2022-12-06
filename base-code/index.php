@@ -58,6 +58,8 @@
         </div>
             
             <div class="morning">
+              <div>  Good morning
+                <h6>Brian Kamala</h6></div>
                 <div><img src="media/elon.jpg" style="height:50px; width:50px ; border-radius:20px"></div>
             </div>
             

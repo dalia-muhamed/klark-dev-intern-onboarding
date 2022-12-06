@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+	<!--begin::Head-->
+	<head>
+		<title>Home page</title>
+		<meta charset="utf-8" />
+		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
+        <link href="styles/raw-main.css" rel="stylesheet">
+		 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,500,600,700" />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" crossorigin="anonymous">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+         
+
+
+		<!--end::Fonts-->
+		<!--begin::Global Stylesheets Bundle(mandatory for all pages)-->
+		
+		<!--end::Global Stylesheets Bundle-->
+		<!-- our custom styles -->
+		
+		<!-- our custom styles end-->
+	</head>
+    
+	<!--end::Head-->
+	<!--begin::Body-->
+	<body id="kt_app_body" data-kt-app-header-fixed-mobile="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-sidebar-stacked="true" data-kt-app-toolbar-enabled="true" class="app-default">
+		
+<div id="app_container">
+    <nav class="navbar">
+       
+        <ul>
+            <h1>Zantia</h1>
+            <hr>
+            <li><a href="#">Dashboard</a></li>
+            <li><a href="#">Content Library </a>
+            <ul><li><a href="#">- Overview</a></li>
+                <li><a href="#">- Posts</a></li>
+                <li><a href="#">- Campaigns</a></li>
+                <li><a href="#">- Content Calenders</a></li>
+                <li><a href="#">- Ideas</a></li>
+            </ul></li>
+         <li><a href="#">Drafts</a></li>
+         <li><a href="#">File Manager</a></li>
+         <li><a href="#">Team Manager</a></li>
+         <li><a href="#">Reporting</a></li>
+        </ul>
+    </nav>
+
+    <header class="header">
+        <form class="d-flex" role="seasrch" >
+            <div class="input-icons">
+                <i class="fa fa-search" aria-hidden="true"></i>
+            <input  type="search" > </div> </form>
+            <div>
+            <button type="button" id="MybtnModal" class="btn btn-primary">open modal</button>
+            <button id="btn" class="btn btn-info" type="submit">@</button>
+            <button id="btn" class="btn btn-info" type="submit">@</button>
+        </div>
+            
+            <div class="morning">
+              <div>  Good morning
+                <h6>Brian Kamala</h6></div>
+                <!-- <div><img src="romano.jpg"></div> -->
+            </div>
+            
+    </header>
+<main class="main">
+    <article>
+        <h5> Where does it come from?</h5>
+       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+         Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+         unknown printer took a galley of type and scrambled it to make a type specimen book.
+        It has survived not only five centuries, but also the leap into electronic typesetting,
+         remaining essentially unchanged. It was popularised in the 1960s with the release of
+          Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+           software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+         <h5> Where does it come from?</h5>
+        <p> It is a long established fact that a reader will be distracted by the readable
+         content of a page when looking at its layout. The point of using Lorem Ipsum is 
+         that it has a more-or-less normal distribution of letters, as opposed to using 
+         'Content here, content here', making it look like readable English. Many desktop
+          publishing packages and web page editors now use Lorem Ipsum as their default model
+           text, and a search for 'lorem ipsum' will uncover many web sites still in their infancy
+           . Various versions have evolved over the years, sometimes by accident, sometimes on
+            purpose (injected humour and the like).</p>
+       </article>
+<aside class="aside">
+    <h1>aside here</h1>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+      Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+      unknown printer took a galley of type and scrambled it to make a type specimen book.
+     It has survived not only five centuries, but also the leap into electronic typesetting,
+      remaining essentially unchanged. It was popularised in the 1960s with the release of
+       Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing
+        software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </aside>
+</main>
+<div class="container">
+	<!-- .modal -->
+	<div class="modal fade" id="Mymodal">
+		<div class="modal-dialog">
+			<div class="modal-content">
+				<div class="modal-header">
+					<button type="button" class="close" data-dismiss="modal">×</button> 
+					<h4 class="modal-title">Notification</h4>                                                             
+				</div> 
+				<div class="modal-body">
+					Are you sure you want to continue?
+				</div>   
+				<div class="modal-footer">
+					<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>                               
+				</div>
+			</div>                                                                       
+		</div>                                          
+	</div>
+</div>
+  <script src="scripts/lib/custom.js"></script>
+ 
+    </body>
+    </html>

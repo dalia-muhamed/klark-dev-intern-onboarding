@@ -3,7 +3,7 @@
 	<!--begin::Head-->
 	<head>
 		<base href="" />
-		<title></title>
+		<title>Home page</title>
 		<meta charset="utf-8" />
 		<link rel="shortcut icon" href="assets/media/logos/favicon.ico" />
 		<!--begin::Fonts(mandatory for all pages)-->
@@ -16,6 +16,9 @@
 		<!-- our custom styles -->
 		<link href="styles/main.css?v=<?php echo filemtime("styles/main.css"); ?>" rel="stylesheet" type="text/css" />
 		<link href="styles/raw-main.css?v=<?php echo filemtime("styles/raw-main.css"); ?>" rel="stylesheet" type="text/css" />
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
 		<!-- our custom styles end-->
 	</head>
 	<!--end::Head-->
@@ -23,7 +26,14 @@
 	<body id="kt_app_body" data-kt-app-header-fixed-mobile="true" data-kt-app-sidebar-enabled="true" data-kt-app-sidebar-fixed="true" data-kt-app-sidebar-push-header="true" data-kt-app-sidebar-push-toolbar="true" data-kt-app-sidebar-push-footer="true" data-kt-app-sidebar-stacked="true" data-kt-app-toolbar-enabled="true" class="app-default">
 
 		<div id="app_container">
-		<!-- Begin::your code -->
+	    <nav class="navbar">
+			<h5>Zuntia</h5>
+			<ul>
+				<li>Dashboard</li>
+				<li>Content Library</li>
+
+			</ul>
+		</nav>
 
 		<div class="text-center mt-4 pt-5">
 			This page Works

@@ -7,7 +7,6 @@ body {
 *{box-sizing: border-box;}
 body{margin:0;
     padding:0;
-    height: 100vh;
    }
 #app_container{  background-color: white;
                 display: grid;
@@ -42,11 +41,10 @@ body{margin:0;
              
       .navbar  ul li a:hover{color:rgb(174, 219, 234);}      
       .header{display: flex;
-             
              height: max-content;} 
       .header *{ margin: 3px;}
       .header .morning {display:flex;
-                  align-items: center;}
+                  align-items:stretch;}
         form{flex:1;}
       
 form input{
@@ -60,11 +58,10 @@ form input{
              left:300px;
              color:rgb(158, 157, 157);
              font-size: 17px;} 
-   .header:nth-child(2){flex:1;
+   .header:nth-child(2){display: flex;
                      height:100px;
-                     
                      }   
-
+   
 
 .main{grid-area: main;
       display:flex;
@@ -74,8 +71,17 @@ form input{
 .main:nth-child(1){flex:1}      
 .main:nth-child(2){flex:0 0 10vw}  
 .aside{grid-area: aside;}
+#Mymodal{}
+.modal-header {background-color: azure;
+  padding:5px}
+.modal-header.row >*{border:2px solid white;}
+.modal-header.row >:nth-child(1){display: flex;}               
+.modal-header *{flex:1}
 
-#page2{background-color: azure;
-       border:1px solid azure; }
+.modal-body{background-color: aliceblue;
+             height:100vh}
+.modal-body .row{display:flex;}
+.modal-body.row >*{border:2px solid rgb(158, 14, 14);}
+.modal-body.row >:nth-child(1){display: flex;}
 
     

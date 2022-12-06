@@ -10,7 +10,7 @@ body{margin:0;
    }
 #app_container{  background-color: white;
                 display: grid;
-                grid-template-columns: auto auto auto;
+                grid-template-columns: 400px auto auto;
                 grid-template-rows: auto;
                grid-template-areas: "nav header aside"
                                      "nav main aside";}
@@ -71,7 +71,8 @@ form input{
 .main:nth-child(1){flex:1}      
 .main:nth-child(2){flex:0 0 10vw}  
 .aside{grid-area: aside;}
-#Mymodal{}
+#Mymodal{
+        }
 .modal-header {background-color: azure;
   padding:5px}
 .modal-header.row >*{border:2px solid white;}
@@ -79,9 +80,15 @@ form input{
 .modal-header *{flex:1}
 
 .modal-body{background-color: aliceblue;
-             height:100vh}
+  overflow-y: scroll;
+   height:max-content}
 .modal-body .row{display:flex;}
 .modal-body.row >*{border:2px solid rgb(158, 14, 14);}
 .modal-body.row >:nth-child(1){display: flex;}
+.modal-footer{display:flex;
+               justify-content: space-between;
+              align-items: flex-end;}
+
+
 
     

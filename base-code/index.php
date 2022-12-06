@@ -51,16 +51,14 @@
             <div class="input-icons">
                 <i class="fa fa-search" aria-hidden="true"></i>
             <input  type="search" > </div> </form>
-            <div>
-            <button type="button" id="MybtnModal" class="btn btn-primary">open modal</button>
+            <div id="btngp" class="d-flex">
+            <button type="button" id="MybtnModal" class="btn btn-primary col-md-8">open modal</button>
             <button id="btn" class="btn btn-info" type="submit">@</button>
             <button id="btn" class="btn btn-info" type="submit">@</button>
         </div>
             
             <div class="morning">
-              <div>  Good morning
-                <h6>Brian Kamala</h6></div>
-                <div><img src="media/romano.jpg"></div>
+                <div><img src="media/elon.jpg" style="height:50px; width:50px ; border-radius:20px"></div>
             </div>
             
     </header>
@@ -143,7 +141,7 @@
                         </div>
                         <div class="col d-flex">
 							<img src="media/temmy.jpg" style="width:50px;height:50px;border-radius:15px">
-                            <div style="width:200px;height:100px; background-color:white">
+                            <div style="width:200px;height:120px; background-color:white">
 							<form class="d-flex" role="seasrch" style="margin-left: auto;" >
                           <input class="form-control margin-left:2" type="search" placeholder="Replying ...." aria-label="Search"></form>
 
